@@ -1,13 +1,6 @@
 {
   "name": "luxwook",
   "version": "1.0.0",
-  "scripts": {
-    "start": "gatsby clean && gatsby develop",
-    "develop": "gatsby develop",
-    "build": "gatsby clean && gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.3",
@@ -28,5 +21,9 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.2"
+  },
+  "engines": {
+      "npm": ">=8.0.0 <9.0.0",
+      "node": ">=16.0.0 <17.0.0"
   }
 }
